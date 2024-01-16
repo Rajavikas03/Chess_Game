@@ -32,12 +32,12 @@ class _MyHomePageState extends State<MyHomePage> {
           controller: controller,
           boardColor: BoardColor.orange,
           boardOrientation: PlayerColor.white,
-          size: MediaQuery.sizeOf(context).width * 0.9,
+          size: MediaQuery.sizeOf(context).width * 0.95,
           onMove: () {
             //
           },
           arrows: [
-            BoardArrow(from: "b2", to: "b4", color: Colors.red.withOpacity(0.7))
+            BoardArrow(from: "b2", to: "b4", color: Colors.red.withOpacity(0.6))
           ],
         ),
       ),
